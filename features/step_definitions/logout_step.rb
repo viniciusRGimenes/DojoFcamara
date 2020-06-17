@@ -3,5 +3,5 @@ Quando('clicar no botão logout') do
 end
   
 Então('deverá exibir {string}') do |expect_sucess|
-    expect(@login.sucess).to start_with expect_sucess
+    expect(@login.success).to start_with expect_sucess
 end

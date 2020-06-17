@@ -22,11 +22,6 @@ Before("@login") do
   @login.sign_in_button
 end
 
-Before("@control") do
-  @control.rm
-  @control.add
-end
-
 After do
   temp_shot = page.save_screenshot('log/temp_shot.png')
   screenshot = Base64.encode64(File.open(temp_shot, "rb").read)
