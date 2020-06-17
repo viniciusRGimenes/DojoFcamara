@@ -19,6 +19,8 @@ Então('o checkbox deverá exibir desmarcado') do
 end
 
 Dado('a checkbox foi adicionada') do
+    @control.rm
+    @control.add
     expect(page).to have_selector "#checkbox"
 end
   

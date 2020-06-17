@@ -17,7 +17,7 @@ class LoginPage
         find('.error').text
     end
     
-    def sucess
+    def success
         find('.success').text
     end
 end

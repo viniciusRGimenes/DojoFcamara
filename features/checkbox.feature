@@ -19,8 +19,6 @@ Funcionalidade: Adicionar e remover checkbox
       Quando desmarcar
       Então o checkbox deverá exibir desmarcado
 
-
-    @button
     @true_check_add
     Cenário: Seleção após remoção e adição do checkbox
       E a checkbox foi adicionada

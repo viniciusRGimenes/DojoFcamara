@@ -14,7 +14,7 @@ Funcionalidade: Adicionar e remover checkbox
         
             E que a "A checkbox" está ná pagina
             Quando eu clicar no botão Remove
-            Então deve exibir a mensagem "It's gone!"
+            Então deve exibir a mensagem "It's gone"
             Mas não deve exibir a checkbox
 
         @add_button
